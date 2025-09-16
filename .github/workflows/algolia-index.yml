@@ -1,0 +1,47 @@
+name: Algolia Search Indexing
+
+on:
+  push:
+    branches: [ main ]
+    paths: 
+      - 'docs/**'
+      - 'website/**'
+  workflow_dispatch:
+
+jobs:
+  algolia-index:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          cache-dependency-path: website/package-lock.json
+          
+      - name: Install dependencies
+        working-directory: ./website
+        run: npm ci
+        
+      - name: Copy docs to website
+        run: |
+          mkdir -p website/docs
+          cp -r docs/* website/docs/
+          
+      - name: Build site
+        working-directory: ./website
+        run: npm run build
+        
+      - name: Run Algolia DocSearch Scraper
+        uses: algolia/docsearch-scraper-action@master
+        env:
+          ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
+          ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
+          ALGOLIA_INDEX_NAME: ${{ secrets.ALGOLIA_INDEX_NAME }}
+        with:
+          docs_path: website/build
+          site_url: https://allinonecryptomcp.dev
+          config_file_path: website/algolia-config.json

@@ -1,0 +1,36 @@
+{
+  "name": "allinone-crypto-trading-mcp-server",
+  "version": "2.1.0",
+  "description": "Complete cryptocurrency trading and analytics platform built on the Model Context Protocol (MCP)",
+  "main": "main.py",
+  "scripts": {
+    "docs:dev": "cd website && npm start",
+    "docs:build": "cd website && npm run build",
+    "docs:serve": "cd website && npm run serve",
+    "docs:deploy": "cd website && npm run deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cryptomcp/allinone-crypto-trading-mcp-server.git"
+  },
+  "keywords": [
+    "cryptocurrency",
+    "trading",
+    "mcp",
+    "blockchain",
+    "defi",
+    "ai",
+    "telegram-bot",
+    "portfolio-management"
+  ],
+  "author": "CryptoMCP Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cryptomcp/allinone-crypto-trading-mcp-server/issues"
+  },
+  "homepage": "https://allinonecryptomcp.dev",
+  "engines": {
+    "node": ">=18.0.0",
+    "python": ">=3.9.0"
+  }
+}
