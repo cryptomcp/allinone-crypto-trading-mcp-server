@@ -1,0 +1,38 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  
+  <!-- Main logo (large) -->
+  <circle cx="300" cy="315" r="80" fill="#2563eb" stroke="#1e40af" stroke-width="4"/>
+  <circle cx="300" cy="315" r="60" fill="#fbbf24" stroke="#f59e0b" stroke-width="2"/>
+  <text x="300" y="330" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1e40af" text-anchor="middle">MCP</text>
+  
+  <!-- Title -->
+  <text x="450" y="280" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff">All-in-One Crypto Trading</text>
+  <text x="450" y="340" font-family="Arial, sans-serif" font-size="36" font-weight="normal" fill="#94a3b8">MCP Server</text>
+  
+  <!-- Subtitle -->
+  <text x="450" y="400" font-family="Arial, sans-serif" font-size="20" fill="#64748b">Complete cryptocurrency trading and analytics platform</text>
+  
+  <!-- Features -->
+  <text x="450" y="450" font-family="Arial, sans-serif" font-size="16" fill="#10b981">✓ Multi-Exchange Support</text>
+  <text x="650" y="450" font-family="Arial, sans-serif" font-size="16" fill="#10b981">✓ AI Trading Signals</text>
+  <text x="450" y="480" font-family="Arial, sans-serif" font-size="16" fill="#10b981">✓ 8+ Blockchain Networks</text>
+  <text x="650" y="480" font-family="Arial, sans-serif" font-size="16" fill="#10b981">✓ Telegram Bot</text>
+  
+  <!-- Website -->
+  <text x="450" y="540" font-family="Arial, sans-serif" font-size="18" fill="#3b82f6">allinonecryptomcp.dev</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="1000" cy="150" r="30" fill="#fbbf24" opacity="0.3"/>
+  <circle cx="1100" cy="250" r="20" fill="#10b981" opacity="0.3"/>
+  <circle cx="950" cy="400" r="25" fill="#ef4444" opacity="0.3"/>
+</svg>
