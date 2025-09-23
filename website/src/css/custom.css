@@ -145,9 +145,19 @@ table {
 /* Crypto trading app announcement banner */
 .announcement {
   background: linear-gradient(90deg, #1e293b 0%, #0f172a 50%, #1e293b 100%) !important;
-  border-bottom: 2px solid #10b981;
+  border-bottom: 2px solid #10b981 !important;
   position: relative;
   overflow: hidden;
+  color: #ffffff !important;
+}
+
+.announcement div[class*="announcementBar"] {
+  background: linear-gradient(90deg, #1e293b 0%, #0f172a 50%, #1e293b 100%) !important;
+  color: #ffffff !important;
+}
+
+.announcement .container {
+  color: #ffffff !important;
 }
 
 .announcement::before {
@@ -172,21 +182,56 @@ table {
 }
 
 .announcement strong {
-  color: #10b981;
-  text-shadow: 0 0 10px rgba(16, 185, 129, 0.3);
+  color: #34d399 !important;
+  text-shadow: 0 0 10px rgba(52, 211, 153, 0.3);
 }
 
 .announcement a {
-  color: #10b981 !important;
+  color: #34d399 !important;
   font-weight: bold;
   text-decoration: underline;
   transition: all 0.3s ease;
 }
 
 .announcement a:hover {
-  color: #34d399 !important;
-  text-shadow: 0 0 15px rgba(52, 211, 153, 0.5);
+  color: #6ee7b7 !important;
+  text-shadow: 0 0 15px rgba(110, 231, 183, 0.5);
   transform: scale(1.05);
+}
+
+/* Ensure text is visible in all themes */
+[data-theme='dark'] .announcement,
+[data-theme='light'] .announcement {
+  color: #ffffff !important;
+}
+
+[data-theme='dark'] .announcement div[class*="announcementBar"],
+[data-theme='light'] .announcement div[class*="announcementBar"] {
+  background: linear-gradient(90deg, #1e293b 0%, #0f172a 50%, #1e293b 100%) !important;
+  color: #ffffff !important;
+}
+
+/* Force text color for announcement content */
+div[class*="announcementBar"] {
+  background: linear-gradient(90deg, #1e293b 0%, #0f172a 50%, #1e293b 100%) !important;
+  color: #ffffff !important;
+  border-bottom: 2px solid #10b981 !important;
+}
+
+div[class*="announcementBar"] div {
+  color: #ffffff !important;
+}
+
+div[class*="announcementBar"] strong {
+  color: #34d399 !important;
+}
+
+div[class*="announcementBar"] a {
+  color: #34d399 !important;
+}
+
+div[class*="announcementBar"] a:hover {
+  color: #6ee7b7 !important;
 }
 
 /* Loading animation for interactive elements */
