@@ -10,9 +10,9 @@
 
 <div align="center">
 
-### 🚀 **Experience this MCP server live at [solanatrading.bot](https://solanatrading.bot)** 🚀
+### 🚀 **Experience this MCP server live at [solanatrade.bot](https://solanatrade.bot)** 🚀
 
-[![Visit Live Bot](https://img.shields.io/badge/🔗_Live_Trading_Bot-solanatrading.bot-10b981?style=for-the-badge&logo=solana&logoColor=white)](https://solanatrading.bot)
+[![Visit Live Bot](https://img.shields.io/badge/🔗_Live_Trading_Bot-solanatrade.bot-10b981?style=for-the-badge&logo=solana&logoColor=white)](https://solanatrade.bot)
 
 **✨ Built with this exact repository** • **🔄 Real-time trading** • **📱 Telegram integration** • **🤖 AI-powered signals**
 
@@ -24,7 +24,7 @@
 
 ## 🚀 Quick Start
 
-> 💡 **Want to see it in action first?** Check out the live implementation at [solanatrading.bot](https://solanatrading.bot) before setting up your own!
+> 💡 **Want to see it in action first?** Check out the live implementation at [solanatrade.bot](https://solanatrade.bot) before setting up your own!
 
 ### Prerequisites
 - Python 3.9 or higher
@@ -76,7 +76,7 @@ Complete documentation is available at: **[https://allinonecryptomcp.dev](https:
 
 ### Mobile & Automation
 - **Telegram Bot**: Full trading interface via [@web3botsupport](https://t.me/web3botsupport)
-- **Live Implementation**: See it in action at [solanatrading.bot](https://solanatrading.bot)
+- **Live Implementation**: See it in action at [solanatrade.bot](https://solanatrade.bot)
 - **24/7 Monitoring**: Automated alerts and notifications
 - **Strategy Automation**: Custom trading bot deployment
 
