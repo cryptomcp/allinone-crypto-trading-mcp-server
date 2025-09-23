@@ -6,7 +6,25 @@
 
 **Complete cryptocurrency trading and analytics platform built on the Model Context Protocol (MCP)**
 
+## 🎯 **Live Trading Bot in Action!**
+
+<div align="center">
+
+### 🚀 **Experience this MCP server live at [solanatrading.bot](https://solanatrading.bot)** 🚀
+
+[![Visit Live Bot](https://img.shields.io/badge/🔗_Live_Trading_Bot-solanatrading.bot-10b981?style=for-the-badge&logo=solana&logoColor=white)](https://solanatrading.bot)
+
+**✨ Built with this exact repository** • **🔄 Real-time trading** • **📱 Telegram integration** • **🤖 AI-powered signals**
+
+*See the power of this MCP server in a production environment with live Solana trading capabilities!*
+
+</div>
+
+---
+
 ## 🚀 Quick Start
+
+> 💡 **Want to see it in action first?** Check out the live implementation at [solanatrading.bot](https://solanatrading.bot) before setting up your own!
 
 ### Prerequisites
 - Python 3.9 or higher
@@ -17,14 +35,14 @@
 ```bash
 git clone https://github.com/cryptomcp/allinone-crypto-trading-mcp-server.git
 cd allinone-crypto-trading-mcp-server
-pip install -r requirements.txt
+python3 main.py
 ```
 
 ### Configuration
 1. Copy `.env.example` to `.env`
 2. Add your exchange API keys
 3. Configure blockchain RPC endpoints
-4. Start the server: `python main.py`
+4. Start the server: `python3 main.py`
 
 ## 📖 Documentation
 
@@ -58,6 +76,7 @@ Complete documentation is available at: **[https://allinonecryptomcp.dev](https:
 
 ### Mobile & Automation
 - **Telegram Bot**: Full trading interface via [@web3botsupport](https://t.me/web3botsupport)
+- **Live Implementation**: See it in action at [solanatrading.bot](https://solanatrading.bot)
 - **24/7 Monitoring**: Automated alerts and notifications
 - **Strategy Automation**: Custom trading bot deployment
 
