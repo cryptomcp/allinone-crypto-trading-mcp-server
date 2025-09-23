@@ -142,6 +142,53 @@ table {
   }
 }
 
+/* Crypto trading app announcement banner */
+.announcement {
+  background: linear-gradient(90deg, #1e293b 0%, #0f172a 50%, #1e293b 100%) !important;
+  border-bottom: 2px solid #10b981;
+  position: relative;
+  overflow: hidden;
+}
+
+.announcement::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(16, 185, 129, 0.2), transparent);
+  animation: shimmer 3s infinite;
+}
+
+@keyframes shimmer {
+  0% { left: -100%; }
+  100% { left: 100%; }
+}
+
+.announcement .container {
+  position: relative;
+  z-index: 1;
+}
+
+.announcement strong {
+  color: #10b981;
+  text-shadow: 0 0 10px rgba(16, 185, 129, 0.3);
+}
+
+.announcement a {
+  color: #10b981 !important;
+  font-weight: bold;
+  text-decoration: underline;
+  transition: all 0.3s ease;
+}
+
+.announcement a:hover {
+  color: #34d399 !important;
+  text-shadow: 0 0 15px rgba(52, 211, 153, 0.5);
+  transform: scale(1.05);
+}
+
 /* Loading animation for interactive elements */
 @keyframes pulse {
   0%, 100% {

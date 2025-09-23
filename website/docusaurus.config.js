@@ -268,10 +268,10 @@ const config = {
       },
       
       announcementBar: {
-        id: 'support_us',
-        content: '⭐️ If you like CryptoMCP, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/cryptomcp/allinone-crypto-trading-mcp-server">GitHub</a>! 🚀',
-        backgroundColor: '#fafbfc',
-        textColor: '#091E42',
+        id: 'solana_trading_bot',
+        content: '🚀 <strong>Live Trading Bot Available!</strong> Experience this MCP server in action at <a target="_blank" rel="noopener noreferrer" href="https://solanatrading.bot" style="color: #10b981; font-weight: bold; text-decoration: underline;">solanatrading.bot</a> - Built with this exact repository! 📈✨',
+        backgroundColor: 'linear-gradient(90deg, #1e293b 0%, #0f172a 100%)',
+        textColor: '#ffffff',
         isCloseable: false,
       },
       colorMode: {
