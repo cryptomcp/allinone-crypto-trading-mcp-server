@@ -6,8 +6,8 @@ build:
   # Define the entry point for the server
   entrypoint: "main.py"
   
-  # Specify the runtime environment
-  runtime: python3
+  # Specify the runtime environment (must be "python" or "typescript")
+  runtime: python
   
   # Define the ports that the server will listen on
   ports:
@@ -26,3 +26,6 @@ build:
     
   # Define the working directory
   working_dir: .
+  
+  # Required start command to run the application
+  startCommand: "python3 main.py"
