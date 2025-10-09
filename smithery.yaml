@@ -1,0 +1,28 @@
+# smithery.yaml
+build:
+  # Specify the build command for Python projects
+  command: "pip install -e ."
+  
+  # Define the entry point for the server
+  entrypoint: "main.py"
+  
+  # Specify the runtime environment
+  runtime: python3
+  
+  # Define the ports that the server will listen on
+  ports:
+    - 8000
+  
+  # Define environment variables if needed
+  env:
+    # Add any required environment variables here
+    # For example:
+    # API_KEY: "${API_KEY}"
+    # DATABASE_URL: "${DATABASE_URL}"
+    
+  # Specify dependencies from pyproject.toml
+  dependencies:
+    - requirements.txt
+    
+  # Define the working directory
+  working_dir: .
